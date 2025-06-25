@@ -3,6 +3,15 @@
 
 password = "ghp_1234566666666"
 
+# DO NOT USE IN PRODUCTION - FOR TESTING ONLY
+private_key = """
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA7v1z0EXAMPLEKEY1234567890abcdefgHIJKLMNOPQRSTUV
+...
+-----END RSA PRIVATE KEY-----
+"""
+
+
 Dobby “Docker based Thingy” is a tool for managing and running OCI containers using [crun](https://github.com/containers/crun)
 
 # Getting Started
